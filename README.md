@@ -13,6 +13,9 @@ Check out our current list of supported releases below:
   - **Progress:** Completed Disk 1 and Disk 2.
   - **Extras:** No OVA/Specials included yet.
 
+- **Great Teacher Onizuka:**
+  - **Progress:** Completed Disk 1.
+
 ## Let's Grow Together!
 
 We're all about collaboration and growth. If you've got ideas or scripts to add, don't hesitate to jump in and expand our support for more releases. Together, we can make managing anime releases smoother than ever!
