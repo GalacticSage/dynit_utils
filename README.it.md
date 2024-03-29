@@ -15,6 +15,23 @@ Date un'occhiata alla nostra lista attuale di uscite supportate qui sotto:
 - **Great Teacher Onizuka:**
   - **Progresso:** Completato Disco 1.
 
+## Requisiti
+
+Prima di utilizzare Dynit_Utils, assicurati di avere `mkvtoolnix` installato sul tuo sistema. Segui le istruzioni di seguito in base alla tua distribuzione Linux:
+
+### Ubuntu/Debian
+```bash
+sudo apt install mkvtoolnix
+```
+### Fedora
+```bash
+sudo dnf install mkvtoolnix
+```
+### Arch
+```bash
+sudo pacman -S mkvtoolnix
+```
+
 ## Cresciamo Insieme!
 
 Siamo tutti per la collaborazione e la crescita. Se avete idee o script da aggiungere, non esitate a partecipare ed espandere il nostro supporto per ulteriori uscite. Insieme, possiamo rendere la gestione delle uscite anime più fluida che mai!
