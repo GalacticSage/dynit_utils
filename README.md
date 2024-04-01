@@ -10,7 +10,7 @@ Welcome to the Dynit_Utils repository! Here, you'll find a handy set of scripts 
 Check out our current list of supported releases below:
 
 - **Fullmetal Alchemist Brotherhood:** 
-  - **Progress:** Completed Disk 1, Disk 2, Disk 3, Disk 4 and Disk 5.
+  - **Progress:** Completed Disk 1, Disk 2, Disk 3, Disk 4, Disk 5 and Disk 6.
   - **Extras:** No OVA/Specials included yet.
 
 - **Great Teacher Onizuka:**
