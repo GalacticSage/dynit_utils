@@ -13,9 +13,6 @@ Check out our current list of supported releases below:
   - **Progress:** Supported all discs (Disc 1, Disc 2, Disc 3, Disc 4, Disc 5, Disc 6, Disc 7, & Disc 8).
   - **Extras:** All OVAs supported (Disc 1, Disc 3, Disc 5, & Disc 7).
 
-- **Great Teacher Onizuka:**
-  - **Progress:** Supported discs (Disc 1)
-
 ## Requirements
 
 Before using Dynit_Utils, ensure you have `mkvtoolnix` installed on your Linux system. At the moment, only Linux is supported. Follow the instructions below based on your Linux distribution:
