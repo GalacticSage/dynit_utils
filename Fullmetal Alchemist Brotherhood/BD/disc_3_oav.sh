@@ -6,7 +6,7 @@ tmp_output_directory="tmp/disc3/"
 output_directory="output/Fullmetal_Alchemist_Brotherhood/"
 output_specials_directory="${output_directory}Specials/"
 
-oav2="Persone semplici"
+oav2="Simple People"
 
 # Function to create directory if it doesn't exist
 create_directory() {
