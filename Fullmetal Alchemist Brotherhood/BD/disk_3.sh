@@ -1,12 +1,10 @@
 #!/bin/bash
 
-input_file1="source_rips/FMA Brotherhood-D3/FMA Brotherhood-D3_t00.mkv"
-#input_file2="source_rips/FMA Brotherhood-D3/FMA Brotherhood-D3_t02.mkv"
+input_file="source_rips/FMA Brotherhood-D3/FMA Brotherhood-D3_t00.mkv"
 
 tmp_output_directory="tmp/disk3/"
 output_directory="output/Fullmetal_Alchemist_Brotherhood/"
 output_season_directory="${output_directory}s01/"
-#output_specials_directory="${output_directory}Specials/"
 
 output_pattern="${tmp_output_directory}segment_%d.mkv"
 
@@ -18,7 +16,6 @@ episode21="Anticipo del buffone"
 episode22="Quelle figure in lontananza"
 episode23="La ragazza sul campo di battaglia"
 episode24="All'interno della pancia"
-#oav2="Persone semplici"
 
 # Function to create directory if it doesn't exist
 create_directory() {
@@ -37,10 +34,10 @@ create_directory "$output_season_directory"
 #create_directory "$output_specials_directory"
 
 echo "Setting forced flag for subtitles..."
-mkvpropedit --edit track:7 --set flag-forced=1 "$input_file1"
+mkvpropedit --edit track:7 --set flag-forced=1 "$input_file"
 
 echo "Splitting input file based on chapters..."
-mkvmerge -o "$output_pattern" --split chapters:6,11,17,22,28,33,38 "$input_file1"
+mkvmerge -o "$output_pattern" --split chapters:6,11,17,22,28,33,38 "$input_file"
 
 #echo "Copying ova file..."
 #cp "$input_file2" "${tmp_output_directory}ova2.mkv"

@@ -10,15 +10,15 @@ Welcome to the Dynit_Utils repository! Here, you'll find a handy set of scripts 
 Check out our current list of supported releases below:
 
 - **Fullmetal Alchemist Brotherhood:** 
-  - **Progress:** Completed all disks (Disk 1, Disk 2, Disk 3, Disk 4, Disk 5, Disk 6, Disk 7 and Disk 8).
-  - **Extras:** No OVA/Specials included yet.
+  - **Progress:** Supported all discs (Disc 1, Disc 2, Disc 3, Disc 4, Disc 5, Disc 6, Disc 7, & Disc 8).
+  - **Extras:** All OVAs supported (Disc 1, Disc 3, Disc 5, & Disc 7).
 
 - **Great Teacher Onizuka:**
-  - **Progress:** Completed Disk 1.
+  - **Progress:** Supported discs (Disc 1)
 
 ## Requirements
 
-Before using Dynit_Utils, ensure you have `mkvtoolnix` installed on your system. Follow the instructions below based on your Linux distribution:
+Before using Dynit_Utils, ensure you have `mkvtoolnix` installed on your Linux system. At the moment, only Linux is supported. Follow the instructions below based on your Linux distribution:
 
 ### Ubuntu/Debian
 
