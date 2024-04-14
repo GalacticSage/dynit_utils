@@ -2,7 +2,7 @@
 
 input_file="source_rips/FMA Brotherhood-D3/FMA Brotherhood-D3_t02.mkv"
 
-tmp_output_directory="tmp/disk3/"
+tmp_output_directory="tmp/disc3/"
 output_directory="output/Fullmetal_Alchemist_Brotherhood/"
 output_specials_directory="${output_directory}Specials/"
 

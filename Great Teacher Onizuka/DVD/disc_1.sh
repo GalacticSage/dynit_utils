@@ -2,7 +2,7 @@
 
 input_file1="source_rips/GTO_01/B1_t00.mkv"
 
-tmp_output_directory="tmp/disk1/"
+tmp_output_directory="tmp/disc1/"
 output_directory="output/GTO - GREAT TEACHER ONIZUKA/"
 output_season_directory="${output_directory}s01/"
 

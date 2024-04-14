@@ -2,7 +2,7 @@
 
 input_file="source_rips/FMA Brotherhood-D5/FMA Brotherhood-D5_t00.mkv"
 
-tmp_output_directory="tmp/disk5/"
+tmp_output_directory="tmp/disc5/"
 output_directory="output/Fullmetal_Alchemist_Brotherhood/"
 output_season_directory="${output_directory}s01/"
 
