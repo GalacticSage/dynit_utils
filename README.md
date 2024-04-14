@@ -9,7 +9,7 @@ Welcome to the Dynit_Utils repository! Here, you'll find a handy set of scripts 
 
 Check out our current list of supported releases below:
 
-- **Fullmetal Alchemist Brotherhood:** 
+- **Fullmetal Alchemist Brotherhood (BD):** 
   - **Progress:** Supported all discs (Disc 1, Disc 2, Disc 3, Disc 4, Disc 5, Disc 6, Disc 7, & Disc 8).
   - **Extras:** All OVAs supported (Disc 1, Disc 3, Disc 5, & Disc 7).
 
