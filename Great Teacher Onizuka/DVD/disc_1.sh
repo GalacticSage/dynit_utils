@@ -1,6 +1,6 @@
 #!/bin/bash
 
-input_file1="source_rips/GTO_01/B1_t00.mkv"
+input_file="source_rips/GTO_01/B1_t00.mkv"
 
 tmp_output_directory="tmp/disc1/"
 output_directory="output/GTO - GREAT TEACHER ONIZUKA/"
@@ -31,10 +31,10 @@ create_directory "$output_directory"
 create_directory "$output_season_directory"
 
 echo "Unselecting forced flag for subtitles..."
-mkvpropedit --edit track:4 --set flag-forced=0 "$input_file1"
+mkvpropedit --edit track:4 --set flag-forced=0 "$input_file"
 
 echo "Splitting input file based on chapters..."
-mkvmerge -o "$output_pattern" --split chapters:8,13,18,23,28 "$input_file1"
+mkvmerge -o "$output_pattern" --split chapters:8,13,18,23,28 "$input_file"
 
 echo "Setting titles for segments..."
 mkvpropedit "${tmp_output_directory}segment_1.mkv" --edit info --set "title=${episode1}"
