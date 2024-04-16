@@ -31,16 +31,12 @@ echo "Creating directories..."
 create_directory "$tmp_output_directory"
 create_directory "$output_directory"
 create_directory "$output_season_directory"
-#create_directory "$output_specials_directory"
 
 echo "Setting forced flag for subtitles..."
 mkvpropedit --edit track:7 --set flag-forced=1 "$input_file"
 
 echo "Splitting input file based on chapters..."
 mkvmerge -o "$output_pattern" --split chapters:6,11,17,22,28,33,38 "$input_file"
-
-#echo "Copying ova file..."
-#cp "$input_file2" "${tmp_output_directory}ova2.mkv"
 
 echo "Setting titles for segments..."
 mkvpropedit "${tmp_output_directory}segment_1.mkv" --edit info --set "title=${episode17}"
@@ -51,7 +47,6 @@ mkvpropedit "${tmp_output_directory}segment_5.mkv" --edit info --set "title=${ep
 mkvpropedit "${tmp_output_directory}segment_6.mkv" --edit info --set "title=${episode22}"
 mkvpropedit "${tmp_output_directory}segment_7.mkv" --edit info --set "title=${episode23}"
 mkvpropedit "${tmp_output_directory}segment_8.mkv" --edit info --set "title=${episode24}"
-#mkvpropedit "${tmp_output_directory}ova2.mkv" --edit info --set "title=${ova2}"
 
 echo "Moving and renaming files..."
 mv "${tmp_output_directory}segment_1.mkv" "${output_season_directory}s01e17.mkv"
@@ -62,7 +57,6 @@ mv "${tmp_output_directory}segment_5.mkv" "${output_season_directory}s01e21.mkv"
 mv "${tmp_output_directory}segment_6.mkv" "${output_season_directory}s01e22.mkv"
 mv "${tmp_output_directory}segment_7.mkv" "${output_season_directory}s01e23.mkv"
 mv "${tmp_output_directory}segment_8.mkv" "${output_season_directory}s01e24.mkv"
-#mv "${tmp_output_directory}ova2.mkv" "${output_specials_directory}Specials/s00e02.mkv"
 
 echo "Cleaning up temporary files..."
 rm -rf tmp/
