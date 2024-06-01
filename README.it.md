@@ -12,7 +12,7 @@ Date un'occhiata alla nostra lista attuale di uscite supportate qui sotto:
   - **Progresso:** Supportati tutti i dischi (Disco 1, Disco 2, Disco 3, Disco 4, Disco 5, Disco 6, Disco 7 e Disco 8).
   - **Extra:** Tutti gli OAV sono supportati (Disco 1, Disco 3, Disco 5 e Disco 7).
 
-- **Great Teacher Onizuka:**
+- **Great Teacher Onizuka (DVD):**
   - **Progresso:** Supportati tutti i dischi (Disco 1, Disco 2, Disco 3, Disco 4, Disco 5 e Disco 6).
 ## Requisiti
 
