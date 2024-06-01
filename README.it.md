@@ -13,7 +13,7 @@ Date un'occhiata alla nostra lista attuale di uscite supportate qui sotto:
   - **Extra:** Tutti gli OAV sono supportati (Disco 1, Disco 3, Disco 5 e Disco 7).
 
 - **Great Teacher Onizuka:**
-  - **Progresso:** Dischi supportati (Disco 1, Disco 2).
+  - **Progresso:** Dischi supportati (Disco 1, Disco 2, Disco 3).
 ## Requisiti
 
 Prima di utilizzare Dynit_Utils, assicurati di avere mkvtoolnix installato sul tuo sistema Linux. Al momento, solo Linux è supportato. Segui le istruzioni di seguito in base alla tua distribuzione Linux:
