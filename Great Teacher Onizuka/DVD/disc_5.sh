@@ -46,6 +46,7 @@ mkvpropedit "${tmp_output_directory}segment_4.mkv" --edit info --set "title=${ep
 mkvpropedit "${tmp_output_directory}segment_5.mkv" --edit info --set "title=${episode32}"
 mkvpropedit "${tmp_output_directory}segment_6.mkv" --edit info --set "title=${episode33}"
 mkvpropedit "${tmp_output_directory}segment_7.mkv" --edit info --set "title=${episode34}"
+mkvpropedit "${tmp_output_directory}segment_8.mkv" --edit info --set "title=${episode35}"
 
 echo "Moving and renaming files..."
 mv "${tmp_output_directory}segment_1.mkv" "${output_season_directory}s01e28.mkv"
@@ -55,7 +56,7 @@ mv "${tmp_output_directory}segment_4.mkv" "${output_season_directory}s01e31.mkv"
 mv "${tmp_output_directory}segment_5.mkv" "${output_season_directory}s01e32.mkv"
 mv "${tmp_output_directory}segment_6.mkv" "${output_season_directory}s01e33.mkv"
 mv "${tmp_output_directory}segment_7.mkv" "${output_season_directory}s01e34.mkv"
-mv "${tmp_output_directory}segment_7.mkv" "${output_season_directory}s01e35.mkv"
+mv "${tmp_output_directory}segment_8.mkv" "${output_season_directory}s01e35.mkv"
 
 echo "Cleaning up temporary files..."
 rm -rf tmp/
