@@ -1,6 +1,5 @@
 # Dynit_Utils: Simplifying Anime Release Management
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/GalacticSage/dynit_utils/blob/main/README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](https://github.com/GalacticSage/dynit_utils/blob/main/README.it.md)
 
 Welcome to the Dynit_Utils repository! Here, you'll find a handy set of scripts tailored to make handling anime releases from Dynit a breeze. These scripts are all about simplifying tasks like splitting, renaming, and organizing episodes from their source rips into tidy directories.
@@ -14,7 +13,7 @@ Check out our current list of supported releases below:
   - **Extras:** All OVAs supported (Disc 1, Disc 3, Disc 5 & Disc 7).
 
 - **Great Teacher Onizuka:**
-  - **Progress:** Supported discs (Disc 1, Disc 2, Disc 3).
+  - **Progress:** Supported discs (Disc 1, Disc 2, Disc 3 & Disc 4).
 
 ## Requirements
 
