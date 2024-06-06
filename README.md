@@ -12,6 +12,9 @@ Check out our current list of supported releases below:
   - **Progress:** Supported all discs (Disc 1, Disc 2, Disc 3, Disc 4, Disc 5, Disc 6, Disc 7 & Disc 8).
   - **Extras:** All OVAs supported (Disc 1, Disc 3, Disc 5 & Disc 7).
 
+- **Gundam 0080 (BD):**
+  - **Progress:** Supported all discs (Disc 1 & Disc 2).
+
 - **Great Teacher Onizuka (DVD):**
   - **Progress:** Supported all discs (Disc 1, Disc 2, Disc 3, Disc 4, Disc 5 & Disc 6).
 

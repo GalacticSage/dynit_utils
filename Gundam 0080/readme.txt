@@ -1,0 +1,1 @@
+These scripts are tailored for "Mobile Suit Gundam 0080" published by Dynit.
